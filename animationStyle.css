@@ -1,0 +1,100 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 2px solid #fff;
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+#row1, #row2, #row3, #row4{
+  display:flex;
+  flex-direction:row;
+}
+.content:hover{
+  transform: scale(1.5,1.5);
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes delayedShow {
+to {
+    visibility: visible;
+  }
+}
+@keyframes delayedShow1 {
+to {
+    visibility: visible;
+  }
+}
+@keyframes delayedShow2 {
+to {
+    visibility: visible;
+  }
+}
+@keyframes square {
+to {
+    visibility: visible;
+  }
+}
+
+#row1 #delayedShow{
+  animation: 0s linear 2s forwards delayedShow;
+}
+#row1 #delayedShow1{
+  animation: 0s linear 3s forwards delayedShow1;
+}
+#row1 #delayedShow2{
+  animation: 0s linear 4s forwards delayedShow2;
+}
+#row2 #square{
+  animation: 0s linear 5s forwards square;
+}
+#row2 #delayedShow{
+  animation: 0s linear 6s forwards delayedShow;
+}
+#row2 #delayedShow1{
+  animation: 0s linear 7s forwards delayedShow1;
+}
+#row2 #delayedShow2{
+  animation: 0s linear 8s forwards delayedShow2;
+}
+#row3 #square{
+  animation: 0s linear 9s forwards square;
+}
+#row3 #delayedShow{
+  animation: 0s linear 10s forwards delayedShow;
+}
+#row3 #delayedShow1{
+  animation: 0s linear 11s forwards delayedShow1;
+}
+#row3 #delayedShow2{
+  animation: 0s linear 12s forwards delayedShow2;
+}
+#row4 #square{
+  animation: 0s linear 13s forwards square;
+}
+#row4 #delayedShow{
+  animation: 0s linear 14s forwards delayedShow;
+}
+#row4 #delayedShow1{
+  animation: 0s linear 15s forwards delayedShow1;
+}
+#row4 #delayedShow2{
+  animation: 0s linear 16s forwards delayedShow2;
+}
