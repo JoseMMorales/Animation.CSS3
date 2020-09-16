@@ -1,6 +1,6 @@
 # **Animation.CSS3**
 
-This repo is an exercise based on applying animations and transitions with HTML, CSS3 and Flexbox. We should use KeyFrames to set up fadeIn, order and visibility to meet outcome requested by steps in the exercise.
+This repo is an exercise based on applying animations and transitions with HTML, CSS3 and Flexbox. We should use Keyframes to set up fade In, order and visibility to meet outcome requested by steps in the exercise.
 
 ## **Exercise requirements**
 
